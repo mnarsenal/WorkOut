@@ -15,6 +15,35 @@
 		9D94ADFC251854FA001197D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D94ADFA251854FA001197D9 /* LaunchScreen.storyboard */; };
 		9D94AE07251854FB001197D9 /* WorkoutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE06251854FB001197D9 /* WorkoutsTests.swift */; };
 		9D94AE12251854FB001197D9 /* WorkoutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE11251854FB001197D9 /* WorkoutsUITests.swift */; };
+		9D94AE29251856D3001197D9 /* AutoSizeFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE23251856D3001197D9 /* AutoSizeFloatButton.swift */; };
+		9D94AE2A251856D3001197D9 /* AutoSizeConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE24251856D3001197D9 /* AutoSizeConstraint.swift */; };
+		9D94AE2B251856D3001197D9 /* AutoSizeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE25251856D3001197D9 /* AutoSizeLabel.swift */; };
+		9D94AE2C251856D3001197D9 /* AutoSizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE26251856D3001197D9 /* AutoSizeButton.swift */; };
+		9D94AE2D251856D3001197D9 /* AutoSizeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE27251856D3001197D9 /* AutoSizeTextField.swift */; };
+		9D94AE2E251856D3001197D9 /* AutoSizeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE28251856D3001197D9 /* AutoSizeTextView.swift */; };
+		9D94AE312518577B001197D9 /* MainWorkouts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D94AE302518577B001197D9 /* MainWorkouts.storyboard */; };
+		9D94AE332518579B001197D9 /* WorkoutsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE322518579B001197D9 /* WorkoutsVC.swift */; };
+		9D94AE3625186107001197D9 /* Welcome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D94AE3525186107001197D9 /* Welcome.xib */; };
+		9D94AE3825186115001197D9 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE3725186115001197D9 /* Welcome.swift */; };
+		9D94AE3C25187C2A001197D9 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE3A25187C2A001197D9 /* Cell.swift */; };
+		9D94AE3D25187C2A001197D9 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D94AE3B25187C2A001197D9 /* Cell.xib */; };
+		9D94AE402519A84B001197D9 /* Artboard – 3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D94AE3F2519A84B001197D9 /* Artboard – 3.xib */; };
+		9D94AE462519AB66001197D9 /* YourHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE452519AB66001197D9 /* YourHeight.swift */; };
+		9D94AE492519C62A001197D9 /* Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D94AE482519C62A001197D9 /* Menu.xib */; };
+		9D94AE4B2519C633001197D9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE4A2519C633001197D9 /* Menu.swift */; };
+		9D94AE512519C70B001197D9 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE4F2519C70B001197D9 /* MenuCell.swift */; };
+		9D94AE522519C70B001197D9 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D94AE502519C70B001197D9 /* MenuCell.xib */; };
+		9D94AE55251B5CB5001197D9 /* Completed.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D94AE54251B5CB5001197D9 /* Completed.xib */; };
+		9D94AE57251B5CBE001197D9 /* Completed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE56251B5CBE001197D9 /* Completed.swift */; };
+		9D94AE5A251B5F6E001197D9 /* Title.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D94AE59251B5F6E001197D9 /* Title.xib */; };
+		9D94AE5D251B5F80001197D9 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE5C251B5F80001197D9 /* Title.swift */; };
+		9D94AE61251B72C2001197D9 /* Form.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D94AE60251B72C2001197D9 /* Form.xib */; };
+		9D94AE63251B72CB001197D9 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE62251B72CB001197D9 /* Form.swift */; };
+		9D94AE65251B75B6001197D9 /* AutoSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE64251B75B6001197D9 /* AutoSizeView.swift */; };
+		9D94AE68251B7DAA001197D9 /* Countdown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D94AE67251B7DAA001197D9 /* Countdown.xib */; };
+		9D94AE6A251B7DB9001197D9 /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE69251B7DB9001197D9 /* Countdown.swift */; };
+		9DB7946B251B8F13004B02B1 /* Reminder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7946A251B8F13004B02B1 /* Reminder.xib */; };
+		9DB79470251B8F1B004B02B1 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7946F251B8F1B004B02B1 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +78,35 @@
 		9D94AE0D251854FB001197D9 /* WorkoutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D94AE11251854FB001197D9 /* WorkoutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsUITests.swift; sourceTree = "<group>"; };
 		9D94AE13251854FB001197D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D94AE23251856D3001197D9 /* AutoSizeFloatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeFloatButton.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeFloatButton.swift"; sourceTree = "<group>"; };
+		9D94AE24251856D3001197D9 /* AutoSizeConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeConstraint.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeConstraint.swift"; sourceTree = "<group>"; };
+		9D94AE25251856D3001197D9 /* AutoSizeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeLabel.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeLabel.swift"; sourceTree = "<group>"; };
+		9D94AE26251856D3001197D9 /* AutoSizeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeButton.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeButton.swift"; sourceTree = "<group>"; };
+		9D94AE27251856D3001197D9 /* AutoSizeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeTextField.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeTextField.swift"; sourceTree = "<group>"; };
+		9D94AE28251856D3001197D9 /* AutoSizeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeTextView.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeTextView.swift"; sourceTree = "<group>"; };
+		9D94AE302518577B001197D9 /* MainWorkouts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainWorkouts.storyboard; sourceTree = "<group>"; };
+		9D94AE322518579B001197D9 /* WorkoutsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsVC.swift; sourceTree = "<group>"; };
+		9D94AE3525186107001197D9 /* Welcome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Welcome.xib; sourceTree = "<group>"; };
+		9D94AE3725186115001197D9 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		9D94AE3A25187C2A001197D9 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		9D94AE3B25187C2A001197D9 /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		9D94AE3F2519A84B001197D9 /* Artboard – 3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "Artboard – 3.xib"; sourceTree = "<group>"; };
+		9D94AE452519AB66001197D9 /* YourHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourHeight.swift; sourceTree = "<group>"; };
+		9D94AE482519C62A001197D9 /* Menu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Menu.xib; sourceTree = "<group>"; };
+		9D94AE4A2519C633001197D9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		9D94AE4F2519C70B001197D9 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		9D94AE502519C70B001197D9 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		9D94AE54251B5CB5001197D9 /* Completed.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Completed.xib; sourceTree = "<group>"; };
+		9D94AE56251B5CBE001197D9 /* Completed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Completed.swift; sourceTree = "<group>"; };
+		9D94AE59251B5F6E001197D9 /* Title.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Title.xib; sourceTree = "<group>"; };
+		9D94AE5C251B5F80001197D9 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		9D94AE60251B72C2001197D9 /* Form.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Form.xib; sourceTree = "<group>"; };
+		9D94AE62251B72CB001197D9 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		9D94AE64251B75B6001197D9 /* AutoSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSizeView.swift; sourceTree = "<group>"; };
+		9D94AE67251B7DAA001197D9 /* Countdown.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Countdown.xib; sourceTree = "<group>"; };
+		9D94AE69251B7DB9001197D9 /* Countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
+		9DB7946A251B8F13004B02B1 /* Reminder.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Reminder.xib; sourceTree = "<group>"; };
+		9DB7946F251B8F1B004B02B1 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +157,16 @@
 		9D94ADEE251854F8001197D9 /* Workouts */ = {
 			isa = PBXGroup;
 			children = (
-				9D94ADEF251854F8001197D9 /* AppDelegate.swift */,
-				9D94ADF1251854F8001197D9 /* SceneDelegate.swift */,
-				9D94ADF3251854F8001197D9 /* ViewController.swift */,
-				9D94ADF5251854F8001197D9 /* Main.storyboard */,
-				9D94ADF8251854FA001197D9 /* Assets.xcassets */,
-				9D94ADFA251854FA001197D9 /* LaunchScreen.storyboard */,
+				9D94AE5E251B725B001197D9 /* MyProfile */,
+				9D94AE58251B5F59001197D9 /* Title */,
+				9D94AE53251B5C78001197D9 /* Completed */,
+				9D94AE472519C5D3001197D9 /* Menu */,
+				9D94AE3E2519A5F3001197D9 /* Artboard – 3 */,
+				9D94AE34251860CD001197D9 /* Welcome */,
+				9D94AE2F25185753001197D9 /* Main */,
+				9D94AE2225185544001197D9 /* Constrain */,
+				9D94AE2125185531001197D9 /* defaul */,
+				9D94AE1F25185502001197D9 /* App */,
 				9D94ADFD251854FA001197D9 /* Info.plist */,
 			);
 			path = Workouts;
@@ -126,6 +188,151 @@
 				9D94AE13251854FB001197D9 /* Info.plist */,
 			);
 			path = WorkoutsUITests;
+			sourceTree = "<group>";
+		};
+		9D94AE1F25185502001197D9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9D94ADEF251854F8001197D9 /* AppDelegate.swift */,
+				9D94ADF1251854F8001197D9 /* SceneDelegate.swift */,
+				9D94ADF8251854FA001197D9 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9D94AE2125185531001197D9 /* defaul */ = {
+			isa = PBXGroup;
+			children = (
+				9D94ADF3251854F8001197D9 /* ViewController.swift */,
+				9D94ADF5251854F8001197D9 /* Main.storyboard */,
+				9D94ADFA251854FA001197D9 /* LaunchScreen.storyboard */,
+			);
+			path = defaul;
+			sourceTree = "<group>";
+		};
+		9D94AE2225185544001197D9 /* Constrain */ = {
+			isa = PBXGroup;
+			children = (
+				9D94AE26251856D3001197D9 /* AutoSizeButton.swift */,
+				9D94AE24251856D3001197D9 /* AutoSizeConstraint.swift */,
+				9D94AE23251856D3001197D9 /* AutoSizeFloatButton.swift */,
+				9D94AE25251856D3001197D9 /* AutoSizeLabel.swift */,
+				9D94AE27251856D3001197D9 /* AutoSizeTextField.swift */,
+				9D94AE28251856D3001197D9 /* AutoSizeTextView.swift */,
+				9D94AE64251B75B6001197D9 /* AutoSizeView.swift */,
+			);
+			path = Constrain;
+			sourceTree = "<group>";
+		};
+		9D94AE2F25185753001197D9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9D94AE302518577B001197D9 /* MainWorkouts.storyboard */,
+				9D94AE322518579B001197D9 /* WorkoutsVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9D94AE34251860CD001197D9 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				9D94AE3925187BF2001197D9 /* Cell */,
+				9D94AE3525186107001197D9 /* Welcome.xib */,
+				9D94AE3725186115001197D9 /* Welcome.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		9D94AE3925187BF2001197D9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9D94AE3A25187C2A001197D9 /* Cell.swift */,
+				9D94AE3B25187C2A001197D9 /* Cell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9D94AE3E2519A5F3001197D9 /* Artboard – 3 */ = {
+			isa = PBXGroup;
+			children = (
+				9D94AE3F2519A84B001197D9 /* Artboard – 3.xib */,
+				9D94AE452519AB66001197D9 /* YourHeight.swift */,
+			);
+			path = "Artboard – 3";
+			sourceTree = "<group>";
+		};
+		9D94AE472519C5D3001197D9 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				9D94AE4C2519C6C8001197D9 /* CellMenu */,
+				9D94AE482519C62A001197D9 /* Menu.xib */,
+				9D94AE4A2519C633001197D9 /* Menu.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		9D94AE4C2519C6C8001197D9 /* CellMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9D94AE4F2519C70B001197D9 /* MenuCell.swift */,
+				9D94AE502519C70B001197D9 /* MenuCell.xib */,
+			);
+			path = CellMenu;
+			sourceTree = "<group>";
+		};
+		9D94AE53251B5C78001197D9 /* Completed */ = {
+			isa = PBXGroup;
+			children = (
+				9D94AE54251B5CB5001197D9 /* Completed.xib */,
+				9D94AE56251B5CBE001197D9 /* Completed.swift */,
+			);
+			path = Completed;
+			sourceTree = "<group>";
+		};
+		9D94AE58251B5F59001197D9 /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				9D94AE59251B5F6E001197D9 /* Title.xib */,
+				9D94AE5C251B5F80001197D9 /* Title.swift */,
+			);
+			path = Title;
+			sourceTree = "<group>";
+		};
+		9D94AE5E251B725B001197D9 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				9DB79469251B8EF8004B02B1 /* Reminder */,
+				9D94AE66251B784E001197D9 /* Countdown */,
+				9D94AE5F251B7271001197D9 /* Form */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		9D94AE5F251B7271001197D9 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				9D94AE60251B72C2001197D9 /* Form.xib */,
+				9D94AE62251B72CB001197D9 /* Form.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		9D94AE66251B784E001197D9 /* Countdown */ = {
+			isa = PBXGroup;
+			children = (
+				9D94AE67251B7DAA001197D9 /* Countdown.xib */,
+				9D94AE69251B7DB9001197D9 /* Countdown.swift */,
+			);
+			path = Countdown;
+			sourceTree = "<group>";
+		};
+		9DB79469251B8EF8004B02B1 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7946A251B8F13004B02B1 /* Reminder.xib */,
+				9DB7946F251B8F1B004B02B1 /* Reminder.swift */,
+			);
+			path = Reminder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +398,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = MR9U2;
 				TargetAttributes = {
 					9D94ADEB251854F8001197D9 = {
@@ -232,8 +439,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D94AE3625186107001197D9 /* Welcome.xib in Resources */,
+				9D94AE61251B72C2001197D9 /* Form.xib in Resources */,
+				9D94AE402519A84B001197D9 /* Artboard – 3.xib in Resources */,
+				9D94AE3D25187C2A001197D9 /* Cell.xib in Resources */,
+				9D94AE522519C70B001197D9 /* MenuCell.xib in Resources */,
 				9D94ADFC251854FA001197D9 /* LaunchScreen.storyboard in Resources */,
+				9D94AE55251B5CB5001197D9 /* Completed.xib in Resources */,
+				9DB7946B251B8F13004B02B1 /* Reminder.xib in Resources */,
+				9D94AE312518577B001197D9 /* MainWorkouts.storyboard in Resources */,
+				9D94AE5A251B5F6E001197D9 /* Title.xib in Resources */,
+				9D94AE68251B7DAA001197D9 /* Countdown.xib in Resources */,
 				9D94ADF9251854FA001197D9 /* Assets.xcassets in Resources */,
+				9D94AE492519C62A001197D9 /* Menu.xib in Resources */,
 				9D94ADF7251854F8001197D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +477,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D94AE462519AB66001197D9 /* YourHeight.swift in Sources */,
+				9D94AE5D251B5F80001197D9 /* Title.swift in Sources */,
+				9D94AE2A251856D3001197D9 /* AutoSizeConstraint.swift in Sources */,
+				9D94AE4B2519C633001197D9 /* Menu.swift in Sources */,
+				9D94AE3825186115001197D9 /* Welcome.swift in Sources */,
+				9D94AE63251B72CB001197D9 /* Form.swift in Sources */,
 				9D94ADF4251854F8001197D9 /* ViewController.swift in Sources */,
 				9D94ADF0251854F8001197D9 /* AppDelegate.swift in Sources */,
+				9D94AE29251856D3001197D9 /* AutoSizeFloatButton.swift in Sources */,
+				9D94AE57251B5CBE001197D9 /* Completed.swift in Sources */,
+				9D94AE3C25187C2A001197D9 /* Cell.swift in Sources */,
+				9D94AE332518579B001197D9 /* WorkoutsVC.swift in Sources */,
+				9D94AE65251B75B6001197D9 /* AutoSizeView.swift in Sources */,
+				9D94AE2C251856D3001197D9 /* AutoSizeButton.swift in Sources */,
+				9D94AE2E251856D3001197D9 /* AutoSizeTextView.swift in Sources */,
+				9DB79470251B8F1B004B02B1 /* Reminder.swift in Sources */,
+				9D94AE512519C70B001197D9 /* MenuCell.swift in Sources */,
+				9D94AE2B251856D3001197D9 /* AutoSizeLabel.swift in Sources */,
 				9D94ADF2251854F8001197D9 /* SceneDelegate.swift in Sources */,
+				9D94AE2D251856D3001197D9 /* AutoSizeTextField.swift in Sources */,
+				9D94AE6A251B7DB9001197D9 /* Countdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +578,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -366,7 +603,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,6 +639,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -420,7 +658,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

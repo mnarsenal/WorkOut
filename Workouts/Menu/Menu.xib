@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Menu" customModule="Workouts" customModuleProvider="target">
+            <connections>
+                <outlet property="colectionview" destination="gL0-vt-BVW" id="yQ5-Rp-Uli"/>
+                <outlet property="imageView" destination="Zkj-tn-pwL" id="CTZ-kS-Q2E"/>
+                <outlet property="viewMenu" destination="z6l-9x-bAt" id="WBS-Yn-W8J"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="380"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="gL0-vt-BVW">
+                    <rect key="frame" x="37" y="160" width="340" height="200"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="s7X-UR-Vew">
+                        <size key="itemSize" width="340" height="95"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="zQr-hG-zGK"/>
+                        <outlet property="delegate" destination="-1" id="Gox-2b-Xo7"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z6l-9x-bAt">
+                    <rect key="frame" x="20" y="44" width="240" height="336"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Zkj-tn-pwL">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="136"/>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XAw-jA-ukK">
+                            <rect key="frame" x="20" y="156" width="74" height="150"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMP-VF-gc2">
+                                    <rect key="frame" x="0.0" y="0.0" width="74" height="30"/>
+                                    <state key="normal" title="Workout"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBK-6R-5yG">
+                                    <rect key="frame" x="0.0" y="30" width="74" height="30"/>
+                                    <state key="normal" title="Meals plan"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bD-yZ-XQG">
+                                    <rect key="frame" x="0.0" y="60" width="74" height="30"/>
+                                    <state key="normal" title="Report"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcC-Di-g8t">
+                                    <rect key="frame" x="0.0" y="90" width="74" height="30"/>
+                                    <state key="normal" title="My profile"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jvf-Kl-Ayk">
+                                    <rect key="frame" x="0.0" y="120" width="74" height="30"/>
+                                    <state key="normal" title="More app"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="Zkj-tn-pwL" firstAttribute="leading" secondItem="z6l-9x-bAt" secondAttribute="leading" id="CGH-ih-mPp"/>
+                        <constraint firstAttribute="trailing" secondItem="Zkj-tn-pwL" secondAttribute="trailing" id="JLF-Mg-z2g"/>
+                        <constraint firstItem="XAw-jA-ukK" firstAttribute="leading" secondItem="z6l-9x-bAt" secondAttribute="leading" constant="20" id="epK-R2-h4t"/>
+                        <constraint firstItem="Zkj-tn-pwL" firstAttribute="top" secondItem="z6l-9x-bAt" secondAttribute="top" id="iw3-v8-eDR"/>
+                        <constraint firstItem="XAw-jA-ukK" firstAttribute="top" secondItem="Zkj-tn-pwL" secondAttribute="bottom" constant="20" id="pV4-i1-szV"/>
+                        <constraint firstAttribute="bottom" secondItem="Zkj-tn-pwL" secondAttribute="bottom" constant="200" id="qsO-aK-zDJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="gL0-vt-BVW" secondAttribute="trailing" constant="37" id="CMi-GT-p2P"/>
+                <constraint firstItem="gL0-vt-BVW" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="116" id="CQA-vz-mWl"/>
+                <constraint firstItem="z6l-9x-bAt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="HiO-jX-efD"/>
+                <constraint firstItem="z6l-9x-bAt" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="PU5-Ze-wlw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="z6l-9x-bAt" secondAttribute="trailing" constant="154" id="YvA-xR-oGz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="z6l-9x-bAt" secondAttribute="bottom" id="Zhc-Va-vZ4"/>
+                <constraint firstItem="gL0-vt-BVW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="37" id="bvI-cM-Qit"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="gL0-vt-BVW" secondAttribute="bottom" constant="20" id="nhW-wS-0b5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="131.8840579710145" y="-64.955357142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Image" width="250" height="250"/>
+    </resources>
+</document>
