@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,23 +12,23 @@
         <scene sceneID="ATY-VG-z0o">
             <objects>
                 <viewController storyboardIdentifier="Main" id="qNL-vJ-Het" customClass="WorkoutsVC" customModule="Workouts" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9jB-Bp-G1d" customClass="Welcome" customModule="Workouts" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="9jB-Bp-G1d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 442" translatesAutoresizingMaskIntoConstraints="NO" id="dza-ee-Pdl">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 461" translatesAutoresizingMaskIntoConstraints="NO" id="LOn-LY-HEJ">
                                 <rect key="frame" x="87" y="255" width="240" height="259"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MG5-hM-mlk" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
-                                <rect key="frame" x="99.5" y="629" width="215" height="61"/>
+                                <rect key="frame" x="100" y="629" width="214" height="61"/>
                                 <string key="text">Welcome to women fitness, 
 we will help you have 
 a well-looked shape.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="linkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xS6-RR-p2z" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
@@ -39,9 +40,9 @@ And this information will be kept confidential.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVI-Dg-ztM" customClass="AutoSizeButton" customModule="Workouts" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVI-Dg-ztM" customClass="AutoSizeButton" customModule="Workouts" customModuleProvider="target">
                                 <rect key="frame" x="147" y="791" width="120" height="30"/>
-                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="XrV-KO-C87"/>
                                     <constraint firstAttribute="width" constant="120" id="pzd-8B-9Pv"/>
@@ -53,49 +54,69 @@ And this information will be kept confidential.</string>
                                     <action selector="setUpBtn:" destination="qNL-vJ-Het" eventType="touchUpInside" id="3wt-yY-LXO"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vhM-0X-Dax" customClass="Menu" customModule="Workouts" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="280" width="414" height="380"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="380" id="SWn-ko-5Al"/>
-                                </constraints>
-                            </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="u2M-r6-bcx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vhM-0X-Dax" firstAttribute="leading" secondItem="u2M-r6-bcx" secondAttribute="leading" id="3xS-px-xCQ"/>
                             <constraint firstItem="LOn-LY-HEJ" firstAttribute="leading" secondItem="u2M-r6-bcx" secondAttribute="leading" constant="87" id="4DQ-tN-giW" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
-                            <constraint firstItem="u2M-r6-bcx" firstAttribute="bottom" secondItem="dza-ee-Pdl" secondAttribute="bottom" id="63b-v1-avs" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
-                            <constraint firstItem="vhM-0X-Dax" firstAttribute="top" secondItem="u2M-r6-bcx" secondAttribute="top" constant="236" id="8Vi-ey-Ux6"/>
                             <constraint firstItem="MG5-hM-mlk" firstAttribute="top" secondItem="LOn-LY-HEJ" secondAttribute="bottom" constant="115" id="9vS-Mv-KTI" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                             <constraint firstItem="GVI-Dg-ztM" firstAttribute="top" secondItem="xS6-RR-p2z" secondAttribute="bottom" constant="34" id="Hsv-Ge-Bnb" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                             <constraint firstItem="GVI-Dg-ztM" firstAttribute="centerX" secondItem="9jB-Bp-G1d" secondAttribute="centerX" id="KMw-7E-9cp" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                             <constraint firstItem="LOn-LY-HEJ" firstAttribute="top" secondItem="u2M-r6-bcx" secondAttribute="top" constant="211" id="NbK-GC-J5I" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                             <constraint firstItem="MG5-hM-mlk" firstAttribute="centerX" secondItem="9jB-Bp-G1d" secondAttribute="centerX" id="Sff-c2-xbf" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                            <constraint firstItem="dza-ee-Pdl" firstAttribute="top" secondItem="9jB-Bp-G1d" secondAttribute="top" id="T78-ew-Sos"/>
                             <constraint firstItem="u2M-r6-bcx" firstAttribute="trailing" secondItem="dza-ee-Pdl" secondAttribute="trailing" id="U5F-xi-t89" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                             <constraint firstItem="u2M-r6-bcx" firstAttribute="bottom" secondItem="GVI-Dg-ztM" secondAttribute="bottom" constant="41" id="ZkB-W4-FFB" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                             <constraint firstItem="xS6-RR-p2z" firstAttribute="centerX" secondItem="9jB-Bp-G1d" secondAttribute="centerX" id="bvS-TW-JfF" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                             <constraint firstItem="xS6-RR-p2z" firstAttribute="top" secondItem="MG5-hM-mlk" secondAttribute="bottom" constant="20" id="eo2-Lj-mxr" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
-                            <constraint firstItem="u2M-r6-bcx" firstAttribute="trailing" secondItem="vhM-0X-Dax" secondAttribute="trailing" id="fAJ-7E-O2k"/>
-                            <constraint firstItem="dza-ee-Pdl" firstAttribute="top" secondItem="u2M-r6-bcx" secondAttribute="top" id="jB3-bE-S0F" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                             <constraint firstItem="u2M-r6-bcx" firstAttribute="trailing" secondItem="LOn-LY-HEJ" secondAttribute="trailing" constant="87" id="kFY-DG-Daz" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                            <constraint firstAttribute="bottom" secondItem="dza-ee-Pdl" secondAttribute="bottom" id="pad-CF-JEf"/>
                             <constraint firstItem="dza-ee-Pdl" firstAttribute="leading" secondItem="u2M-r6-bcx" secondAttribute="leading" id="qi5-jD-7nU" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                             <constraint firstItem="u2M-r6-bcx" firstAttribute="bottom" secondItem="LOn-LY-HEJ" secondAttribute="bottom" constant="348" id="sf1-eI-Oc9" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="u2M-r6-bcx"/>
                     </view>
-                    <connections>
-                        <outlet property="view123" destination="vhM-0X-Dax" id="fED-YG-NEK"/>
-                        <outlet property="viewWelcome" destination="9jB-Bp-G1d" id="iA7-ZD-uOx"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="qhY-3o-nOg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G6p-Zx-KEg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="179.71014492753625" y="68.973214285714278"/>
+            <point key="canvasLocation" x="2910.144927536232" y="68.973214285714278"/>
+        </scene>
+        <!--Test-->
+        <scene sceneID="fLv-KN-LL5">
+            <objects>
+                <viewController storyboardIdentifier="asd" id="R0k-N4-am3" customClass="Test" customModule="Workouts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WOR-ks-xNm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LbI-Zu-smV">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AHf-8x-6tb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="AHf-8x-6tb" firstAttribute="trailing" secondItem="LbI-Zu-smV" secondAttribute="trailing" id="60h-0W-L63"/>
+                            <constraint firstItem="AHf-8x-6tb" firstAttribute="bottom" secondItem="LbI-Zu-smV" secondAttribute="bottom" id="DP7-wb-3bD"/>
+                            <constraint firstItem="LbI-Zu-smV" firstAttribute="top" secondItem="AHf-8x-6tb" secondAttribute="top" id="SCA-rg-xMK"/>
+                            <constraint firstItem="LbI-Zu-smV" firstAttribute="leading" secondItem="AHf-8x-6tb" secondAttribute="leading" id="War-lx-2Fc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1dJ-bU-a7J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4157" y="92"/>
         </scene>
     </scenes>
     <resources>
         <image name="Group 442" width="1920" height="1920"/>
         <image name="Group 461" width="627.5" height="730.5"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

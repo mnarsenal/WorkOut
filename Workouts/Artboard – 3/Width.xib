@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Width" customModule="Workouts" customModuleProvider="target">
+            <connections>
+                <outlet property="tftWeigh" destination="se9-Tk-2hj" id="Thu-9H-Jhv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UlC-kT-JzL">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 442.2" translatesAutoresizingMaskIntoConstraints="NO" id="sTZ-Uq-Jpa">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 465" translatesAutoresizingMaskIntoConstraints="NO" id="qWA-Fv-QgP">
+                            <rect key="frame" x="115" y="174" width="184" height="384"/>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VzZ-eD-hSD">
+                            <rect key="frame" x="172" y="777.5" width="70.5" height="34"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="se9-Tk-2hj" customClass="AutoSizeTextField" customModule="Workouts" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="34"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="sbV-QL-JJp"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                </textField>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XP7-xK-1gF" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
+                                    <rect key="frame" x="50" y="0.0" width="20.5" height="34"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" systemColor="linkColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4N-zb-UUE" customClass="AutoSizeButton" customModule="Workouts" customModuleProvider="target">
+                            <rect key="frame" x="147" y="844.5" width="120" height="30"/>
+                            <color key="backgroundColor" systemColor="linkColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="120" id="MC7-5b-Urr"/>
+                            </constraints>
+                            <state key="normal" title="Finish">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="btnFinish:" destination="-1" eventType="touchUpInside" id="7eF-6R-FNZ"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POm-Im-oxy" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
+                            <rect key="frame" x="32.5" y="706.5" width="349.5" height="41"/>
+                            <string key="text">Focus on the area of the body you want 
+to improve and personalize your workout plan.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your height" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctk-aA-dCq" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
+                            <rect key="frame" x="163.5" y="633" width="87" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" systemColor="linkColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="qWA-Fv-QgP" firstAttribute="leading" secondItem="UlC-kT-JzL" secondAttribute="leading" constant="115" id="Avz-mk-OJk" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstItem="sTZ-Uq-Jpa" firstAttribute="leading" secondItem="UlC-kT-JzL" secondAttribute="leading" id="CZf-Eh-3tw" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstItem="VzZ-eD-hSD" firstAttribute="top" secondItem="POm-Im-oxy" secondAttribute="bottom" constant="30" id="KyX-U6-m6e" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstItem="ctk-aA-dCq" firstAttribute="top" secondItem="qWA-Fv-QgP" secondAttribute="bottom" constant="75" id="L5J-SO-1Qs" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstAttribute="trailing" secondItem="sTZ-Uq-Jpa" secondAttribute="trailing" id="Psh-4j-JGt" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstItem="ctk-aA-dCq" firstAttribute="centerX" secondItem="UlC-kT-JzL" secondAttribute="centerX" id="VkI-rM-hWM" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstAttribute="bottom" secondItem="qWA-Fv-QgP" secondAttribute="bottom" constant="338" id="Zmt-Z2-tYZ" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstAttribute="bottom" secondItem="sTZ-Uq-Jpa" secondAttribute="bottom" id="bEm-dj-JAe"/>
+                        <constraint firstItem="POm-Im-oxy" firstAttribute="top" secondItem="ctk-aA-dCq" secondAttribute="bottom" constant="53" id="dcy-Jx-d5O" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstItem="POm-Im-oxy" firstAttribute="centerX" secondItem="UlC-kT-JzL" secondAttribute="centerX" id="hxh-51-3gV" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstItem="POm-Im-oxy" firstAttribute="centerX" secondItem="UlC-kT-JzL" secondAttribute="centerX" id="iZT-f5-ePB" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstItem="qWA-Fv-QgP" firstAttribute="top" secondItem="UlC-kT-JzL" secondAttribute="top" constant="174" id="mbC-Kg-fyS" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstItem="n4N-zb-UUE" firstAttribute="top" secondItem="VzZ-eD-hSD" secondAttribute="bottom" constant="33" id="mti-EQ-esQ" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstItem="sTZ-Uq-Jpa" firstAttribute="top" secondItem="UlC-kT-JzL" secondAttribute="top" id="oUI-Ka-QHj" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstItem="VzZ-eD-hSD" firstAttribute="centerX" secondItem="UlC-kT-JzL" secondAttribute="centerX" id="oUS-M1-jOJ" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstItem="n4N-zb-UUE" firstAttribute="centerX" secondItem="UlC-kT-JzL" secondAttribute="centerX" id="td9-fU-Q9V" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                        <constraint firstAttribute="trailing" secondItem="qWA-Fv-QgP" secondAttribute="trailing" constant="115" id="yES-bF-O30" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UlC-kT-JzL" secondAttribute="trailing" id="9Fy-bg-GhT" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstAttribute="bottom" secondItem="UlC-kT-JzL" secondAttribute="bottom" id="Dul-Ai-E2a"/>
+                <constraint firstItem="UlC-kT-JzL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Qld-tV-MPq" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstItem="UlC-kT-JzL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="piO-bP-NJm"/>
+            </constraints>
+            <point key="canvasLocation" x="15.942028985507248" y="79.6875"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Group 442.2" width="1920" height="1920"/>
+        <image name="Group 465" width="620.5" height="622.5"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -12,7 +12,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        return true
+    }
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
@@ -22,7 +25,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let storybroad = UIStoryboard.init(name: "MainWorkouts", bundle: nil)
         let loginVC = storybroad.instantiateViewController(identifier: "Main")
-        window?.rootViewController = loginVC
+        let navigationController = UINavigationController()
+        navigationController.viewControllers = [loginVC]
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }
 

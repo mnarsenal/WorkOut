@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,36 +20,57 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbw-5r-nQL">
                         <rect key="frame" x="0.0" y="0.0" width="340" height="90"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Mr1-pS-DTj">
-                                <rect key="frame" x="246" y="0.0" width="94" height="90"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ABS back" translatesAutoresizingMaskIntoConstraints="NO" id="cQf-fy-PbK">
+                                <rect key="frame" x="0.0" y="0.0" width="340" height="90"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Mr1-pS-DTj">
+                                <rect key="frame" x="246" y="0.0" width="98" height="90"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="keJ-aV-3TJ">
+                                <rect key="frame" x="20" y="34.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Mr1-pS-DTj" secondAttribute="trailing" id="1hk-iJ-H2s"/>
+                            <constraint firstAttribute="trailing" secondItem="Mr1-pS-DTj" secondAttribute="trailing" constant="-4" id="1hk-iJ-H2s"/>
                             <constraint firstItem="Mr1-pS-DTj" firstAttribute="leading" secondItem="hbw-5r-nQL" secondAttribute="leading" constant="246" id="7rc-0O-uPW"/>
+                            <constraint firstAttribute="bottom" secondItem="cQf-fy-PbK" secondAttribute="bottom" id="Mkk-Zg-8d8"/>
                             <constraint firstAttribute="bottom" secondItem="Mr1-pS-DTj" secondAttribute="bottom" id="UNH-Ls-Rvq"/>
                             <constraint firstItem="Mr1-pS-DTj" firstAttribute="top" secondItem="hbw-5r-nQL" secondAttribute="top" id="YbM-Wk-5z1"/>
+                            <constraint firstItem="keJ-aV-3TJ" firstAttribute="centerY" secondItem="hbw-5r-nQL" secondAttribute="centerY" id="ZFN-Rx-UqQ"/>
+                            <constraint firstAttribute="trailing" secondItem="cQf-fy-PbK" secondAttribute="trailing" id="bgv-Dz-QPF"/>
+                            <constraint firstItem="cQf-fy-PbK" firstAttribute="top" secondItem="hbw-5r-nQL" secondAttribute="top" id="bpa-E7-tDF"/>
+                            <constraint firstItem="keJ-aV-3TJ" firstAttribute="leading" secondItem="hbw-5r-nQL" secondAttribute="leading" constant="20" id="cHN-zc-h4X"/>
+                            <constraint firstItem="cQf-fy-PbK" firstAttribute="leading" secondItem="hbw-5r-nQL" secondAttribute="leading" id="ouG-s6-NXw"/>
                         </constraints>
                     </view>
                 </subviews>
             </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
                 <constraint firstItem="hbw-5r-nQL" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3Xw-sB-eiY"/>
                 <constraint firstAttribute="trailing" secondItem="hbw-5r-nQL" secondAttribute="trailing" id="OMx-ED-mJQ"/>
                 <constraint firstAttribute="bottom" secondItem="hbw-5r-nQL" secondAttribute="bottom" id="he1-9A-ePE"/>
                 <constraint firstItem="hbw-5r-nQL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ldf-fG-ozQ"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="340" height="90"/>
             <connections>
                 <outlet property="image" destination="Mr1-pS-DTj" id="pdu-6y-PpC"/>
+                <outlet property="imageBackground" destination="cQf-fy-PbK" id="j2R-6H-oMo"/>
+                <outlet property="lbMenuCell" destination="keJ-aV-3TJ" id="oHw-Tv-Ugc"/>
                 <outlet property="viewMenuCell" destination="hbw-5r-nQL" id="Z0b-4Q-cxX"/>
             </connections>
             <point key="canvasLocation" x="340.57971014492756" y="121.20535714285714"/>
         </collectionViewCell>
     </objects>
     <resources>
+        <image name="ABS back" width="589" height="250"/>
         <image name="Image" width="250" height="250"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

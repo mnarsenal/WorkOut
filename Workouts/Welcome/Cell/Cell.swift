@@ -16,22 +16,19 @@ class Cell: UICollectionViewCell {
         return "Cell"
     }
   
-    @IBOutlet weak var viewCell: UIView!
+    @IBOutlet weak var imageBackground: UIImageView!
     @IBOutlet weak var lable: UILabel!
     @IBOutlet weak var image: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        configueviewCell()
+        self.image.contentMode = .scaleAspectFill
     }
-    func configue(text:String,image:UIImage?,background: UIColor){
+    func configue(text:String,image:UIImage?,background: UIImage?){
         self.image.image = image
         self.lable.text = text
-        self.viewCell.backgroundColor = background
+        self.imageBackground.image = background
     }
-    func configueviewCell(){
-        viewCell.layer.borderWidth = 0
-        viewCell.layer.cornerRadius = 13
-    }
+    
 
 }

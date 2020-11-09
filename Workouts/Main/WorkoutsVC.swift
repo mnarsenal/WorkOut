@@ -9,18 +9,29 @@
 import UIKit
 
 class WorkoutsVC: UIViewController {
+    
 
-    @IBOutlet weak var view123: Menu!
-    @IBOutlet var viewWelcome: Welcome!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addSubview(view123)
-        // Do any additional setup after loading the view.
+
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
-    
     @IBAction func setUpBtn(_ sender: Any) {
-        self.view.addSubview(view123)
+        let vc = WelcomeVC(nibName: "WelcomeVC", bundle: nil)
+       // if let nav = self.navigationController {
+          //  nav.pushViewController(vc, animated: true)
+      //  }
+        navigationController?.pushViewController(vc, animated: true)
+        //self.present(vc, animated: true, completion: nil)
     }
     /*
     // MARK: - Navigation

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,47 +16,48 @@
                 <rect key="frame" x="0.0" y="0.0" width="240" height="80"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5AC-Hg-pcE">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ABS back" translatesAutoresizingMaskIntoConstraints="NO" id="927-gX-bTZ">
                         <rect key="frame" x="0.0" y="0.0" width="240" height="80"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Belly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIz-nr-FgK">
-                                <rect key="frame" x="42" y="31" width="33" height="18"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Component 1 – 1" translatesAutoresizingMaskIntoConstraints="NO" id="zcU-19-TJ9">
-                                <rect key="frame" x="133" y="23" width="101.5" height="34"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.39129387842465752" green="0.9215573668" blue="0.92156130079999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Component 1 – 1" translatesAutoresizingMaskIntoConstraints="NO" id="TqR-yb-Vn7">
+                        <rect key="frame" x="150" y="20" width="55" height="40"/>
                         <constraints>
-                            <constraint firstItem="wIz-nr-FgK" firstAttribute="leading" secondItem="5AC-Hg-pcE" secondAttribute="leading" constant="42" id="2eH-sM-ecQ"/>
-                            <constraint firstAttribute="trailing" secondItem="zcU-19-TJ9" secondAttribute="trailing" constant="5.5" id="78I-4v-tjz"/>
-                            <constraint firstItem="zcU-19-TJ9" firstAttribute="top" secondItem="5AC-Hg-pcE" secondAttribute="top" constant="23" id="Oc8-tS-0Hh"/>
-                            <constraint firstItem="wIz-nr-FgK" firstAttribute="centerY" secondItem="5AC-Hg-pcE" secondAttribute="centerY" id="Zk3-1p-esd"/>
-                            <constraint firstAttribute="bottom" secondItem="zcU-19-TJ9" secondAttribute="bottom" constant="23" id="goO-O7-uuV"/>
+                            <constraint firstAttribute="height" constant="40" id="6Fk-Lj-ikX" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                            <constraint firstAttribute="width" constant="55" id="XjO-Wn-lEe" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                         </constraints>
-                    </view>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDB-Un-2or">
+                        <rect key="frame" x="40" y="31" width="38" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
             </view>
-            <constraints>
-                <constraint firstAttribute="bottom" secondItem="5AC-Hg-pcE" secondAttribute="bottom" id="DVa-gb-jWK"/>
-                <constraint firstItem="5AC-Hg-pcE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GKZ-iv-UG3"/>
-                <constraint firstItem="5AC-Hg-pcE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="H8E-f9-SdQ"/>
-                <constraint firstAttribute="trailing" secondItem="5AC-Hg-pcE" secondAttribute="trailing" id="kLz-aJ-9px"/>
-            </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="927-gX-bTZ" secondAttribute="trailing" id="9Gc-20-y9L" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstItem="JDB-Un-2or" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="31" id="L6p-UX-8YV" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstItem="TqR-yb-Vn7" firstAttribute="leading" secondItem="JDB-Un-2or" secondAttribute="trailing" constant="72" id="OUV-zJ-nnW" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstItem="JDB-Un-2or" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="40" id="dHY-FN-8p2" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstItem="927-gX-bTZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gm4-Ip-dkn" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstAttribute="bottom" secondItem="927-gX-bTZ" secondAttribute="bottom" id="lQL-4b-ear" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstAttribute="bottom" secondItem="JDB-Un-2or" secondAttribute="bottom" constant="31" id="nhu-to-igP" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstItem="TqR-yb-Vn7" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="o2h-Xz-stD" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstItem="927-gX-bTZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="o5x-jj-q9U" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstAttribute="trailing" secondItem="TqR-yb-Vn7" secondAttribute="trailing" constant="35" id="r6K-0L-QJW" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+            </constraints>
             <size key="customSize" width="240" height="80"/>
             <connections>
-                <outlet property="image" destination="zcU-19-TJ9" id="pzC-n2-cAn"/>
-                <outlet property="lable" destination="wIz-nr-FgK" id="UCo-rZ-e66"/>
-                <outlet property="viewCell" destination="5AC-Hg-pcE" id="oVG-kl-TGz"/>
+                <outlet property="image" destination="TqR-yb-Vn7" id="Cfn-Br-Zfk"/>
+                <outlet property="imageBackground" destination="927-gX-bTZ" id="iSl-2g-jZF"/>
+                <outlet property="lable" destination="JDB-Un-2or" id="Ea6-3h-MHN"/>
             </connections>
-            <point key="canvasLocation" x="269.56521739130437" y="137.94642857142856"/>
+            <point key="canvasLocation" x="269.56521739130437" y="136.60714285714286"/>
         </collectionViewCell>
     </objects>
     <resources>
+        <image name="ABS back" width="589" height="250"/>
         <image name="Component 1 – 1" width="101.5" height="135.5"/>
     </resources>
 </document>

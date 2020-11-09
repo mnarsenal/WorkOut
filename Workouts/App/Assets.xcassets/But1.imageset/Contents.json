@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "01_WB_Blog_Header_24.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "01_WB_Blog_Header_24@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "01_WB_Blog_Header_24@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -15,16 +15,19 @@ class MenuCell: UICollectionViewCell {
     class var nibName: String {
         return "MenuCell"
     }
+    @IBOutlet weak var imageBackground: UIImageView!
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var viewMenuCell: UIView!
+    @IBOutlet weak var lbMenuCell:UILabel! 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        viewMenuCell.layer.cornerRadius = 19
+        imageBackground.layer.cornerRadius = 19
     }
-    func configue(image:UIImage?,background:UIColor){
+    func configue(image:UIImage?,background:UIImage?,text:String){
         self.image.image = image
-        self.viewMenuCell.backgroundColor = background
+        self.imageBackground.image = background
+        self.lbMenuCell.text = text
     }
 
 }

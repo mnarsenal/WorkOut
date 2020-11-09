@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Support" customModule="Workouts" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AutoSizeView" customModule="Workouts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="180"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Support" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uud-TM-egf" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
+                    <rect key="frame" x="20" y="20" width="52.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" systemColor="linkColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fZX-kq-a8x">
+                    <rect key="frame" x="50" y="45" width="116" height="110"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="tBl-9C-vFV">
+                            <rect key="frame" x="0.0" y="0.0" width="116" height="20"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Component 23 – 1" translatesAutoresizingMaskIntoConstraints="NO" id="yiz-G5-3Yw">
+                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="CeK-rY-PFf"/>
+                                        <constraint firstAttribute="width" constant="20" id="kQZ-WL-Y59"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rate us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8wd-wd-Cwk" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
+                                    <rect key="frame" x="32" y="0.0" width="84" height="20"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="SwU-PD-hVI">
+                            <rect key="frame" x="0.0" y="30" width="116" height="20"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Component 24 – 1" translatesAutoresizingMaskIntoConstraints="NO" id="2rz-kA-HgK">
+                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="q8A-4x-4wY"/>
+                                        <constraint firstAttribute="width" constant="20" id="trM-lO-mez"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqW-VP-PBX" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
+                                    <rect key="frame" x="32" y="0.0" width="84" height="20"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="6Ph-Sf-Dc6">
+                            <rect key="frame" x="0.0" y="60" width="116" height="20"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Component 25 – 1" translatesAutoresizingMaskIntoConstraints="NO" id="98P-fh-fb7">
+                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="LX5-Di-Xb1"/>
+                                        <constraint firstAttribute="width" constant="20" id="k8P-M8-ram"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbB-Zj-w1S" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
+                                    <rect key="frame" x="32" y="0.0" width="84" height="20"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="CmC-0G-qoJ">
+                            <rect key="frame" x="0.0" y="90" width="116" height="20"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Component 26 – 1" translatesAutoresizingMaskIntoConstraints="NO" id="bJ7-ib-d8j">
+                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="7hM-RD-zvV"/>
+                                        <constraint firstAttribute="height" constant="20" id="sZx-xe-Ajx"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdC-mP-rre" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
+                                    <rect key="frame" x="32" y="0.0" width="84" height="20"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="uud-TM-egf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="8Qp-Vs-wlH" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstItem="uud-TM-egf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="ADo-5Q-Qk2" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                <constraint firstItem="fZX-kq-a8x" firstAttribute="top" secondItem="uud-TM-egf" secondAttribute="bottom" constant="8" id="NbX-Uf-sjq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="fZX-kq-a8x" secondAttribute="bottom" constant="25" id="O1K-PI-Ldx"/>
+                <constraint firstItem="fZX-kq-a8x" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="50" id="b6K-1F-efy" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-128.98550724637681" y="-361.60714285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Component 23 – 1" width="64" height="61.5"/>
+        <image name="Component 24 – 1" width="64" height="57"/>
+        <image name="Component 25 – 1" width="56.5" height="64"/>
+        <image name="Component 26 – 1" width="64" height="59"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

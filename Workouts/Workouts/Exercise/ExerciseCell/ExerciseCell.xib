@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ExerciseCell" id="gTV-IL-0wX" customClass="ExerciseCell" customModule="Workouts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kFs-za-fQv">
+                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsQ-7w-faR">
+                                <rect key="frame" x="11.5" y="6" width="7" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="AsQ-7w-faR" firstAttribute="centerY" secondItem="kFs-za-fQv" secondAttribute="centerY" id="Gbd-cP-jBT"/>
+                            <constraint firstItem="AsQ-7w-faR" firstAttribute="centerX" secondItem="kFs-za-fQv" secondAttribute="centerX" id="spi-xR-D4Y"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="kFs-za-fQv" secondAttribute="bottom" id="4D5-Zt-1Va"/>
+                <constraint firstAttribute="trailing" secondItem="kFs-za-fQv" secondAttribute="trailing" id="5Nc-R5-jY0"/>
+                <constraint firstItem="kFs-za-fQv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="L8P-Ju-XeH"/>
+                <constraint firstItem="kFs-za-fQv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hLi-Fp-MGt"/>
+            </constraints>
+            <size key="customSize" width="30" height="30"/>
+            <connections>
+                <outlet property="lblCell" destination="AsQ-7w-faR" id="bNH-8j-qYH"/>
+                <outlet property="viewCell" destination="kFs-za-fQv" id="DjY-Ea-RBr"/>
+            </connections>
+            <point key="canvasLocation" x="123.18840579710145" y="89.0625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

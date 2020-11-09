@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 class Countdown:UIView{
+    var delegate:CountDownDelegate?
     override init(frame: CGRect) {
           super.init(frame: frame)
           commonInit()
@@ -34,6 +35,9 @@ class Countdown:UIView{
                                                         metrics: nil,
                                                         views: ["childView": view]))
       }
+    @IBAction func btnEdit(_ sender: Any) {
+        delegate?.userButton(into: self)
+    }
 }
 extension UIView {
     /** Loads instance from nib with the same name. */
@@ -43,4 +47,8 @@ extension UIView {
         let nib = UINib(nibName: nibName, bundle: bundle)
         return nib.instantiate(withOwner: self, options: nil).first as! UIView
     }
+}
+protocol CountDownDelegate {
+    func userButton(into CD:Countdown)
+    
 }

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CellReminder" id="gTV-IL-0wX" customClass="CellReminder" customModule="Workouts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="128" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="128" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xfY-GU-mu1">
+                        <rect key="frame" x="0.0" y="0.0" width="128" height="50"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ellipse 33" translatesAutoresizingMaskIntoConstraints="NO" id="yjh-Le-hBn">
+                                <rect key="frame" x="10" y="15" width="20" height="20"/>
+                                <color key="tintColor" red="0.16078431372549018" green="0.52549019607843139" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="aST-uz-XZp"/>
+                                    <constraint firstAttribute="height" constant="20" id="vj0-8s-diC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rI-xk-3ug">
+                                <rect key="frame" x="52" y="20" width="46" height="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yjh-Le-hBn" firstAttribute="leading" secondItem="xfY-GU-mu1" secondAttribute="leading" constant="10" id="5T5-RB-0jQ"/>
+                            <constraint firstItem="0rI-xk-3ug" firstAttribute="centerY" secondItem="xfY-GU-mu1" secondAttribute="centerY" id="5V3-Jg-GHv"/>
+                            <constraint firstItem="0rI-xk-3ug" firstAttribute="leading" secondItem="yjh-Le-hBn" secondAttribute="trailing" constant="22" id="Owa-fF-m1n"/>
+                            <constraint firstAttribute="trailing" secondItem="0rI-xk-3ug" secondAttribute="trailing" constant="30" id="pjY-H4-Xz2"/>
+                            <constraint firstItem="yjh-Le-hBn" firstAttribute="centerY" secondItem="xfY-GU-mu1" secondAttribute="centerY" id="yZt-fx-Vvc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="xfY-GU-mu1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="AVp-bW-E2q"/>
+                <constraint firstItem="xfY-GU-mu1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="J07-kh-MhI"/>
+                <constraint firstAttribute="bottom" secondItem="xfY-GU-mu1" secondAttribute="bottom" id="qXL-5p-gwH"/>
+                <constraint firstAttribute="trailing" secondItem="xfY-GU-mu1" secondAttribute="trailing" id="uZ8-Wf-aqs"/>
+            </constraints>
+            <size key="customSize" width="128" height="50"/>
+            <connections>
+                <outlet property="imageCell" destination="yjh-Le-hBn" id="OvG-2D-kaw"/>
+                <outlet property="lblDay" destination="0rI-xk-3ug" id="yrg-2g-PFV"/>
+                <outlet property="viewCell" destination="xfY-GU-mu1" id="QjP-Gn-EeX"/>
+            </connections>
+            <point key="canvasLocation" x="72.463768115942031" y="60.9375"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Ellipse 33" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

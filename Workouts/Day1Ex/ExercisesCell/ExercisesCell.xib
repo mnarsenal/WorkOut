@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ExercisesCell" id="gTV-IL-0wX" customClass="ExercisesCell" customModule="Workouts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yr8-Ei-2dN">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="90"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ABS2" translatesAutoresizingMaskIntoConstraints="NO" id="nSh-F7-7sO">
+                                <rect key="frame" x="0.0" y="0.0" width="94" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="bnC-S5-CNZ"/>
+                                    <constraint firstAttribute="width" constant="94" id="wrf-Kf-DIg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercise name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvp-UW-Fk4" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
+                                <rect key="frame" x="119" y="25" width="99" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGK-l0-mCu" customClass="AutoSizeLabel" customModule="Workouts" customModuleProvider="target">
+                                <rect key="frame" x="119" y="53" width="23" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrH-Fd-q85">
+                                <rect key="frame" x="290" y="30" width="30" height="30"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HYL-TD-gmZ" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                                    <constraint firstAttribute="width" constant="30" id="tEP-cZ-mcD" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                                </constraints>
+                                <state key="normal" title="i">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" systemColor="linkColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nSh-F7-7sO" firstAttribute="top" secondItem="Yr8-Ei-2dN" secondAttribute="top" id="5t7-iM-NB5"/>
+                            <constraint firstAttribute="trailing" secondItem="HrH-Fd-q85" secondAttribute="trailing" constant="20" id="OtR-Lb-2rX"/>
+                            <constraint firstItem="nSh-F7-7sO" firstAttribute="leading" secondItem="Yr8-Ei-2dN" secondAttribute="leading" id="Wb8-NR-nb5"/>
+                            <constraint firstItem="mvp-UW-Fk4" firstAttribute="top" secondItem="Yr8-Ei-2dN" secondAttribute="top" constant="25" id="iZV-wF-yEG"/>
+                            <constraint firstItem="mvp-UW-Fk4" firstAttribute="leading" secondItem="nSh-F7-7sO" secondAttribute="trailing" constant="25" id="k2l-UE-Urq"/>
+                            <constraint firstItem="jGK-l0-mCu" firstAttribute="leading" secondItem="nSh-F7-7sO" secondAttribute="trailing" constant="25" id="pFp-7Z-uKW"/>
+                            <constraint firstItem="jGK-l0-mCu" firstAttribute="top" secondItem="mvp-UW-Fk4" secondAttribute="bottom" constant="10" id="vwb-ff-pqN"/>
+                            <constraint firstItem="HrH-Fd-q85" firstAttribute="top" secondItem="Yr8-Ei-2dN" secondAttribute="top" constant="30" id="x2A-NQ-keu"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Yr8-Ei-2dN" secondAttribute="bottom" id="1CY-XY-fwu"/>
+                <constraint firstAttribute="trailing" secondItem="Yr8-Ei-2dN" secondAttribute="trailing" id="GWR-Cj-Ayz"/>
+                <constraint firstItem="Yr8-Ei-2dN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="LKb-g0-2Rc"/>
+                <constraint firstItem="Yr8-Ei-2dN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="h4c-MS-TbV"/>
+            </constraints>
+            <size key="customSize" width="340" height="90"/>
+            <connections>
+                <outlet property="btn" destination="HrH-Fd-q85" id="PHl-5z-Hrf"/>
+                <outlet property="exerciseName" destination="mvp-UW-Fk4" id="FJc-H7-taS"/>
+                <outlet property="view" destination="Yr8-Ei-2dN" id="L3W-af-J8L"/>
+                <outlet property="x30" destination="jGK-l0-mCu" id="Pb9-rU-KbR"/>
+            </connections>
+            <point key="canvasLocation" x="226.08695652173915" y="93.080357142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ABS2" width="250" height="250"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

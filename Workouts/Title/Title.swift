@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 class Title:UIView{
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var titleText: UILabel!
+    var delegate:TileDelegate?
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -34,6 +37,14 @@ class Title:UIView{
                                                       metrics: nil,
                                                       views: ["childView": view]))
     }
+    
+ 
+    @IBAction func btnBack(_ sender: Any) {
+        self.delegate?.userButton(into: self)
+    }
+}
+protocol TileDelegate {
+    func userButton(into tile:Title)
 }
 extension UIView {
     /** Loads instance from nib with the same name. */

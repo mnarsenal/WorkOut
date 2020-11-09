@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuView" customModule="Workouts" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="124" height="196"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OIA-D1-IAU">
+                    <rect key="frame" x="0.0" y="0.0" width="124" height="196"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 9.2" translatesAutoresizingMaskIntoConstraints="NO" id="Dd9-o1-ZQ6">
+                            <rect key="frame" x="0.0" y="0.0" width="124" height="196"/>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gOz-6d-l5C">
+                            <rect key="frame" x="25" y="23" width="74" height="150"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Br-Ip-Rhy">
+                                    <rect key="frame" x="0.0" y="0.0" width="74" height="30"/>
+                                    <state key="normal" title="Workout"/>
+                                    <connections>
+                                        <action selector="btnWorkOut:" destination="-1" eventType="touchUpInside" id="feA-Vh-COy"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YrF-rV-tHC">
+                                    <rect key="frame" x="0.0" y="30" width="74" height="30"/>
+                                    <state key="normal" title="Meals plan"/>
+                                    <connections>
+                                        <action selector="btnMeals:" destination="-1" eventType="touchUpInside" id="fOJ-ZA-EeI"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoX-DV-pjO">
+                                    <rect key="frame" x="0.0" y="60" width="74" height="30"/>
+                                    <state key="normal" title="Report"/>
+                                    <connections>
+                                        <action selector="btnReport:" destination="-1" eventType="touchUpInside" id="ePh-FG-rGy"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKj-LQ-U0d">
+                                    <rect key="frame" x="0.0" y="90" width="74" height="30"/>
+                                    <state key="normal" title="My profile"/>
+                                    <connections>
+                                        <action selector="btnProfile:" destination="-1" eventType="touchUpInside" id="bqc-Mm-avB"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWe-Up-RHx">
+                                    <rect key="frame" x="0.0" y="120" width="74" height="30"/>
+                                    <state key="normal" title="More app"/>
+                                    <connections>
+                                        <action selector="btnMoreApp:" destination="-1" eventType="touchUpInside" id="aGv-lT-9q0"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Dd9-o1-ZQ6" secondAttribute="trailing" id="CCp-nW-wS6"/>
+                        <constraint firstItem="gOz-6d-l5C" firstAttribute="centerX" secondItem="OIA-D1-IAU" secondAttribute="centerX" id="M8T-Bg-606"/>
+                        <constraint firstItem="Dd9-o1-ZQ6" firstAttribute="top" secondItem="OIA-D1-IAU" secondAttribute="top" id="Ydq-dX-K7R"/>
+                        <constraint firstItem="gOz-6d-l5C" firstAttribute="centerY" secondItem="OIA-D1-IAU" secondAttribute="centerY" id="iGK-aL-elZ"/>
+                        <constraint firstAttribute="bottom" secondItem="Dd9-o1-ZQ6" secondAttribute="bottom" id="vnj-GE-okX"/>
+                        <constraint firstItem="Dd9-o1-ZQ6" firstAttribute="leading" secondItem="OIA-D1-IAU" secondAttribute="leading" id="yU7-Na-I2g"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="OIA-D1-IAU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BqZ-ws-2FN"/>
+                <constraint firstItem="OIA-D1-IAU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MDT-dW-JDF"/>
+                <constraint firstAttribute="trailing" secondItem="OIA-D1-IAU" secondAttribute="trailing" id="Ywt-t2-wqw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="OIA-D1-IAU" secondAttribute="bottom" id="sf5-g0-Yl0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-75.362318840579718" y="-18.75"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Rectangle 9.2" width="1125" height="1008"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
