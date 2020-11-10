@@ -132,8 +132,8 @@ class MealsPlan: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
         self.selectedIndexPath = nil
     }
     func userButton(into tile: Title) {
-        _ = WorkOuts(nibName: "WorkOuts", bundle: nil)
-        navigationController?.popViewController(animated: true)
+        let vc = WorkOuts(nibName: "WorkOuts", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 }

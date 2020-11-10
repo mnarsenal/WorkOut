@@ -20,15 +20,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="240" height="80"/>
                     </imageView>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Component 1 – 1" translatesAutoresizingMaskIntoConstraints="NO" id="TqR-yb-Vn7">
-                        <rect key="frame" x="150" y="20" width="55" height="40"/>
+                        <rect key="frame" x="165" y="20" width="40" height="40"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="40" id="6Fk-Lj-ikX" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
-                            <constraint firstAttribute="width" constant="55" id="XjO-Wn-lEe" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
+                            <constraint firstAttribute="width" constant="40" id="XjO-Wn-lEe" customClass="AutoSizeConstraint" customModule="Workouts" customModuleProvider="target"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDB-Un-2or">
-                        <rect key="frame" x="40" y="31" width="38" height="18"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <rect key="frame" x="40" y="31" width="53" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
