@@ -65,12 +65,6 @@
 		9D94ADFC251854FA001197D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D94ADFA251854FA001197D9 /* LaunchScreen.storyboard */; };
 		9D94AE07251854FB001197D9 /* WorkoutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE06251854FB001197D9 /* WorkoutsTests.swift */; };
 		9D94AE12251854FB001197D9 /* WorkoutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE11251854FB001197D9 /* WorkoutsUITests.swift */; };
-		9D94AE29251856D3001197D9 /* AutoSizeFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE23251856D3001197D9 /* AutoSizeFloatButton.swift */; };
-		9D94AE2A251856D3001197D9 /* AutoSizeConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE24251856D3001197D9 /* AutoSizeConstraint.swift */; };
-		9D94AE2B251856D3001197D9 /* AutoSizeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE25251856D3001197D9 /* AutoSizeLabel.swift */; };
-		9D94AE2C251856D3001197D9 /* AutoSizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE26251856D3001197D9 /* AutoSizeButton.swift */; };
-		9D94AE2D251856D3001197D9 /* AutoSizeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE27251856D3001197D9 /* AutoSizeTextField.swift */; };
-		9D94AE2E251856D3001197D9 /* AutoSizeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE28251856D3001197D9 /* AutoSizeTextView.swift */; };
 		9D94AE312518577B001197D9 /* MainWorkouts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D94AE302518577B001197D9 /* MainWorkouts.storyboard */; };
 		9D94AE332518579B001197D9 /* WorkoutsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE322518579B001197D9 /* WorkoutsVC.swift */; };
 		9D94AE3C25187C2A001197D9 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE3A25187C2A001197D9 /* Cell.swift */; };
@@ -96,6 +90,12 @@
 		9DDDCD7C253D54FD00B9413A /* AlertGenenal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DDDCD7A253D54FD00B9413A /* AlertGenenal.xib */; };
 		9DE99708252E002600476885 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE99706252E002600476885 /* WelcomeVC.swift */; };
 		9DE99709252E002600476885 /* WelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE99707252E002600476885 /* WelcomeVC.xib */; };
+		9DF13B62255D8625004A31FF /* AutoSizeFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF13B5C255D8625004A31FF /* AutoSizeFloatButton.swift */; };
+		9DF13B63255D8625004A31FF /* AutoSizeConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF13B5D255D8625004A31FF /* AutoSizeConstraint.swift */; };
+		9DF13B64255D8625004A31FF /* AutoSizeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF13B5E255D8625004A31FF /* AutoSizeTextField.swift */; };
+		9DF13B65255D8625004A31FF /* AutoSizeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF13B5F255D8625004A31FF /* AutoSizeTextView.swift */; };
+		9DF13B66255D8625004A31FF /* AutoSizeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF13B60255D8625004A31FF /* AutoSizeLabel.swift */; };
+		9DF13B67255D8625004A31FF /* AutoSizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF13B61255D8625004A31FF /* AutoSizeButton.swift */; };
 		A04E56B28AA71702946832E1 /* Pods_Workouts_WorkoutsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76B498CE28274EB261CA9C9 /* Pods_Workouts_WorkoutsUITests.framework */; };
 		DCD2B6F19C172D5B8BB3DC42 /* Pods_Workouts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF7F89A564625E6216604E6 /* Pods_Workouts.framework */; };
 /* End PBXBuildFile section */
@@ -187,12 +187,6 @@
 		9D94AE0D251854FB001197D9 /* WorkoutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D94AE11251854FB001197D9 /* WorkoutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsUITests.swift; sourceTree = "<group>"; };
 		9D94AE13251854FB001197D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D94AE23251856D3001197D9 /* AutoSizeFloatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeFloatButton.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeFloatButton.swift"; sourceTree = "<group>"; };
-		9D94AE24251856D3001197D9 /* AutoSizeConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeConstraint.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeConstraint.swift"; sourceTree = "<group>"; };
-		9D94AE25251856D3001197D9 /* AutoSizeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeLabel.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeLabel.swift"; sourceTree = "<group>"; };
-		9D94AE26251856D3001197D9 /* AutoSizeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeButton.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeButton.swift"; sourceTree = "<group>"; };
-		9D94AE27251856D3001197D9 /* AutoSizeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeTextField.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeTextField.swift"; sourceTree = "<group>"; };
-		9D94AE28251856D3001197D9 /* AutoSizeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoSizeTextView.swift; path = "../../../merchant-ios-develop/Merchant/Miscellaneous/AutoSizeTextView.swift"; sourceTree = "<group>"; };
 		9D94AE302518577B001197D9 /* MainWorkouts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainWorkouts.storyboard; sourceTree = "<group>"; };
 		9D94AE322518579B001197D9 /* WorkoutsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsVC.swift; sourceTree = "<group>"; };
 		9D94AE3A25187C2A001197D9 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
@@ -218,6 +212,12 @@
 		9DDDCD7A253D54FD00B9413A /* AlertGenenal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertGenenal.xib; sourceTree = "<group>"; };
 		9DE99706252E002600476885 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		9DE99707252E002600476885 /* WelcomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeVC.xib; sourceTree = "<group>"; };
+		9DF13B5C255D8625004A31FF /* AutoSizeFloatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSizeFloatButton.swift; sourceTree = "<group>"; };
+		9DF13B5D255D8625004A31FF /* AutoSizeConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSizeConstraint.swift; sourceTree = "<group>"; };
+		9DF13B5E255D8625004A31FF /* AutoSizeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSizeTextField.swift; sourceTree = "<group>"; };
+		9DF13B5F255D8625004A31FF /* AutoSizeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSizeTextView.swift; sourceTree = "<group>"; };
+		9DF13B60255D8625004A31FF /* AutoSizeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSizeLabel.swift; sourceTree = "<group>"; };
+		9DF13B61255D8625004A31FF /* AutoSizeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSizeButton.swift; sourceTree = "<group>"; };
 		C57600A4E03F510CF6798EDD /* Pods-WorkoutsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutsTests.debug.xcconfig"; path = "Target Support Files/Pods-WorkoutsTests/Pods-WorkoutsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C76B498CE28274EB261CA9C9 /* Pods_Workouts_WorkoutsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Workouts_WorkoutsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23398CD6EE27495AFBECE86 /* Pods-Workouts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workouts.debug.xcconfig"; path = "Target Support Files/Pods-Workouts/Pods-Workouts.debug.xcconfig"; sourceTree = "<group>"; };
@@ -505,12 +505,12 @@
 		9D94AE2225185544001197D9 /* Constrain */ = {
 			isa = PBXGroup;
 			children = (
-				9D94AE26251856D3001197D9 /* AutoSizeButton.swift */,
-				9D94AE24251856D3001197D9 /* AutoSizeConstraint.swift */,
-				9D94AE23251856D3001197D9 /* AutoSizeFloatButton.swift */,
-				9D94AE25251856D3001197D9 /* AutoSizeLabel.swift */,
-				9D94AE27251856D3001197D9 /* AutoSizeTextField.swift */,
-				9D94AE28251856D3001197D9 /* AutoSizeTextView.swift */,
+				9DF13B61255D8625004A31FF /* AutoSizeButton.swift */,
+				9DF13B5D255D8625004A31FF /* AutoSizeConstraint.swift */,
+				9DF13B5C255D8625004A31FF /* AutoSizeFloatButton.swift */,
+				9DF13B60255D8625004A31FF /* AutoSizeLabel.swift */,
+				9DF13B5E255D8625004A31FF /* AutoSizeTextField.swift */,
+				9DF13B5F255D8625004A31FF /* AutoSizeTextView.swift */,
 				9D94AE64251B75B6001197D9 /* AutoSizeView.swift */,
 				9D11E42C2533117100385169 /* CommonFunction.swift */,
 				9D80846E2536023B0011C4ED /* ViewBorder.swift */,
@@ -965,22 +965,21 @@
 				9DDDCD73253D53B900B9413A /* AlertCD.swift in Sources */,
 				9D0A5A6325372307001F33DB /* Exercises.swift in Sources */,
 				9D8AFDCF25342F4E00078F69 /* ExerciseCell.swift in Sources */,
-				9D94AE2A251856D3001197D9 /* AutoSizeConstraint.swift in Sources */,
+				9DF13B65255D8625004A31FF /* AutoSizeTextView.swift in Sources */,
 				9DAA636C2555219400D8CD38 /* CellReminderr.swift in Sources */,
 				9D6D3DDC254ECCD200913E4D /* Diet.swift in Sources */,
 				9D31089F2537FEAE0080E209 /* MoreAppCell.swift in Sources */,
 				9D94ADF4251854F8001197D9 /* ViewController.swift in Sources */,
 				9D5FA3F5252EE0A100FE64C9 /* General.swift in Sources */,
 				9D94ADF0251854F8001197D9 /* AppDelegate.swift in Sources */,
-				9D94AE29251856D3001197D9 /* AutoSizeFloatButton.swift in Sources */,
 				9D94AE3C25187C2A001197D9 /* Cell.swift in Sources */,
 				9D94AE332518579B001197D9 /* WorkoutsVC.swift in Sources */,
 				9D919A8D253AA65F009A525B /* Completed.swift in Sources */,
 				9D1EEE08253099A600D22576 /* ViewDiet.swift in Sources */,
 				9D70E11C2547BBA000A1D9BD /* AlertReminder.swift in Sources */,
+				9DF13B62255D8625004A31FF /* AutoSizeFloatButton.swift in Sources */,
 				9D94AE65251B75B6001197D9 /* AutoSizeView.swift in Sources */,
 				9DE99708252E002600476885 /* WelcomeVC.swift in Sources */,
-				9D94AE2C251856D3001197D9 /* AutoSizeButton.swift in Sources */,
 				9D5FA3CA252EC85300FE64C9 /* Height.swift in Sources */,
 				9DDDCD7B253D54FD00B9413A /* AlertGenenal.swift in Sources */,
 				9D8AFDC425342DA100078F69 /* Exercise.swift in Sources */,
@@ -989,24 +988,25 @@
 				9D5FA41A252EF58D00FE64C9 /* CellMP.swift in Sources */,
 				9D11E42D2533117100385169 /* CommonFunction.swift in Sources */,
 				9DAA63782555243900D8CD38 /* reminder.swift in Sources */,
-				9D94AE2E251856D3001197D9 /* AutoSizeTextView.swift in Sources */,
 				9DDBCC3525485C9B0023E800 /* AlertForm.swift in Sources */,
 				9D5FA3E9252ED04300FE64C9 /* Width.swift in Sources */,
 				9D8AFDB92533FA1B00078F69 /* WorkOuts.swift in Sources */,
+				9DF13B67255D8625004A31FF /* AutoSizeButton.swift in Sources */,
 				9D3108912537FE8D0080E209 /* MoreApp.swift in Sources */,
 				9D70E1272547BD4A00A1D9BD /* CellReminder.swift in Sources */,
+				9DF13B64255D8625004A31FF /* AutoSizeTextField.swift in Sources */,
 				9D587C69254146F500CE7B56 /* Model.xcdatamodeld in Sources */,
 				9D94AE512519C70B001197D9 /* MenuCell.swift in Sources */,
 				9D5FA413252EE6E600FE64C9 /* Test.swift in Sources */,
-				9D94AE2B251856D3001197D9 /* AutoSizeLabel.swift in Sources */,
 				9D32436925454E9500552DC7 /* CellViewDiet.swift in Sources */,
 				9D5FA3FB252EE2FC00FE64C9 /* Support.swift in Sources */,
+				9DF13B66255D8625004A31FF /* AutoSizeLabel.swift in Sources */,
 				9D0A5A7A253737BE001F33DB /* SoundOptions.swift in Sources */,
 				9D94ADF2251854F8001197D9 /* SceneDelegate.swift in Sources */,
 				9DAA63832555631500D8CD38 /* ReminderData.swift in Sources */,
-				9D94AE2D251856D3001197D9 /* AutoSizeTextField.swift in Sources */,
 				9D94AE6A251B7DB9001197D9 /* Countdown.swift in Sources */,
 				9D5FA40D252EE60600FE64C9 /* MealsPlan.swift in Sources */,
+				9DF13B63255D8625004A31FF /* AutoSizeConstraint.swift in Sources */,
 				9D0A5A81253739C9001F33DB /* MyProfile.swift in Sources */,
 				9D80846F2536023B0011C4ED /* ViewBorder.swift in Sources */,
 				9D540F8A2553F05000EE3165 /* diet_vega.swift in Sources */,
